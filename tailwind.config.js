@@ -2,7 +2,18 @@
 module.exports = {
     content: ["./src/**/*.{html,js}"],
     theme: {
-        extend: {},
+        extend: {
+        },
     },
     plugins: [],
+}
+module.exports = {
+    theme: {
+        extend: {
+            backgroundImage: {
+                'hero-pattern': "url('images/rectangles.svg')",
+
+            }
+        }
+    }
 }

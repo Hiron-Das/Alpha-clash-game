@@ -11,3 +11,7 @@
 .font-inter {
     font-family: "Inter", sans-serif;
 }
+
+.my-rect {
+    background-image: url(images/rectangles.svg);
+}
